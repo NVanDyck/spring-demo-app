@@ -1,0 +1,15 @@
+spring:
+  profiles: android-local
+
+automation:
+  app:
+    path: /Users/nick/Desktop/Hogent/refleqt-spring-automation/src/test/resources/app/DEMO_APK.zip
+    platform: local
+    bundle: com.saucelabs.SwagLabsMobileApp
+  appium:
+    version: 1.22.3
+    project: demo
+    device: Pixel 4 API 33
+    udid: emulator-5554
+    os: Android
+    os-version: 13.0

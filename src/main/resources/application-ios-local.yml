@@ -1,0 +1,15 @@
+spring:
+  profiles: ios-local
+
+automation:
+  app:
+    path: /Users/nick/Desktop/Hogent/refleqt-spring-automation/src/test/resources/app/DEMO_APP.zip
+    platform: local
+    bundle: com.saucelabs.SwagLabsMobileApp
+  appium:
+    version: 1.22.3
+    project: demo
+    device: iPhone 14
+    udid: 2D2A867D-0F68-4AFC-9064-88242C6B77FB
+    os: iOS
+    os-version: 16.2
