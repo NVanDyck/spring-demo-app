@@ -35,6 +35,12 @@ public class SwagSteps {
                 .andValidateError();
     }
 
+    @Then("a new error is expected")
+    public void loginErrorIsDisplayedNew() {
+        this.loginErrorIsDisplayed();
+    }
+
+
     @Then("an other new error is expected")
     public void loginErrorIsDisplayedOther() {
         new SwagLoginPage(appiumDriver)

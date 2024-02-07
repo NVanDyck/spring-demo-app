@@ -8,6 +8,13 @@ Feature: Swag Mobile shop
       | password | secret_sauces |
     Then an error is expected
 
+  Scenario: Feature 2
+    Given the app is loaded
+    When i login with:
+      | username | standard_user |
+      | password | secret_sauces |
+    Then a new error is expected
+
   Scenario: Failing a login feature 1
     Given the app is loaded
     When i login with:
